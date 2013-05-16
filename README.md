@@ -9,3 +9,6 @@ String[] columns = { "a", "b" };
 assertEquals("select a,b,c from x", sql.select(tableName, columns));
 
 Do this for the usual SQL queries: SELECT, INSERT, UPDATE, DELETE.
+
+
+***For documentation, read the tests...
